@@ -1,0 +1,179 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        body,
+        html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+        }
+
+        .bgimg {
+            background-position: center;
+            background-size: cover;
+            /* Di bawah ini (yang diapit kutip) adalah background header yaitu gambar foto pahlawan nasional, silakan ganti dengan file lain*/
+            background-image: url("https://i.pinimg.com/originals/c7/9e/32/c79e32b5d7811619e79c7767cd3febf0.png");
+
+            min-height: 75%;
+        }
+
+        .menu {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Links (sit on top) Daftar link yang ada di bagian atas halaman -->
+    <div class="w3-top">
+        <div class="w3-row w3-padding w3-black">
+            <div class="w3-col s3">
+                <a href="#" class="w3-button w3-block w3-black">Beranda</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#10november" class="w3-button w3-block w3-black">Tentang Kami</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#namapahlawan" class="w3-button w3-block w3-black">Rental mobil</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#pesan" class="w3-button w3-block w3-black">Pesan</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with image/ Header dengan gambar -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag">Future Car Rentals</span>
+        </div>
+        <div class="w3-display-middle w3-center">
+            <span class="w3-text-white" style="font-size:90px">menyediakan jasa dan solusi transportasi terbaik untuk memenuhi kebutuhan mobilitas bisnis <br>maupun pribadi anda sehari-hari</span>
+        </div>
+        <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-text-white">nikmati pengalaman perjalanan terbaik bersama Future Car Rentals</span>
+        </div>
+    </header>
+
+    <!-- Menambahkan warna background dan tulisan besar di seluruh halaman -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+        <!-- Kontainer 10 November -->
+        <div class="w3-container" id="10november">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Future Car Rentals</span></h5>
+                <p>
+                    Kami menawarkan beragam layanan dan jenis kendaraan yang dapat disesuaikan dengan kebutuhan anda, mulai dari sewa kendaraan jangka pendek dan panjang untuk keperluan operasional bisnis </p>
+                <p>hingga sewa mobil harian dengan pengemudi maupun lepas kunci</p>untuk kebutuhan pribadi anda.<p></p>
+                <!-- Di bawah ini ada tempat untuk menaruh quote/ kata mutiara-->
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>"mulai perjalanan anda bersama Future car Rentals sekarang"</i></p>
+                    <p>Untuk informasi lebih lanjut,anda dapat menghubungi kami melalui <a href="https://wa.me/6285338376969">WhatsApp</a></p>
+                <!-- Di bawah ini adalah gambar pahlawan nasional. Silakan ganti bagian yang diapit quote pada atribut src-->
+                <img alt="Future Car Rentals" src="https://c4.wallpaperflare.com/wallpaper/113/997/98/honda-japanese-cars-honda-nsx-sparko-wallpaper-preview.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+
+            </div>
+        </div>
+
+        <!-- Kontainer Nama Pahlawan -->
+        <div class="w3-container" id="namapahlawan">
+            <div class="w3-content" style="max-width:700px">
+
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Rental mobil</span></h5>
+
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'PahlawanNasional');" id="myLink">
+                        <div class="w3-col s6 tablink w3-dark-grey">Mobil MPV</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'PahlawanDaerah');">
+                        <div class="w3-col s6 tablink">Mobil SUV</div>
+                    </a>
+                </div>
+
+                <div id="PahlawanNasional" class="w3-container menu w3-padding-48 w3-card" style="display: block;">
+                    <h5>Toyota Avanza Veloz Q CVT</h5>
+                    <p class="w3-text-grey">Kapasitas tempat duduk: 7 kursi, sudah dilengkapi dengan AC, Power Steering, Ventilasi AC Belakang, Engine Start Stop Button, Power Outlet, Power Window Depan, Power Window  Belakang, Meja Lipat Belakang, Kursi Lipat Belakang, Lampu baca, Kursi dengan Heater   Belakang, Arm Rest Konsol Tengah. untuk segi keamanan dilengkapi dengan sistem sensor Toyota Safety Sense dan 6 buah airbag</p><br>
+
+                    <h5>Nissan Livina</h5>
+                    <p class="w3-text-grey">kapasitas tempat duduk: 7 kursi, dilengkapi fitur AC, Power Steering, Ventilasi AC Belakang, Power Window Depan, Adjustable Seats, Headrest Kursi Belakang, On Board Computer, Cup Holder   depan, Bottle Holder, Automatic Head Lamps, Pemanas, Meja Lipat Belakang, Lampu baca, Kursi dengan Heater - Belakang. dibekali juga dengan transmisi 4-Speed Automatic. Sistem keamanannya dibekali Central Locking &amp; Power Door Lock</p><br>
+
+                    <h5>Honda Mobilio</h5>
+                    <p class="w3-text-grey">kapasitas tempat duduk: 7 kursi, dilengkapi fitur AC, Ventilasi AC Belakang, Power Window Depan, Adjustable Seats, Headrest Kursi Belakang, On Board Computer, Cup Holder - depan, Bottle Holder, Pemanas, Meja Lipat Belakang, Kursi Lipat Belakang, Lampu baca, Kursi dengan Heater - Belakang, Automatic Climate Control, Kursi dengan Heater - Depan, Cup Holder   belakang, Keyless Entry.  dibekali juga dengan transmisi 5-Speed Manual. Sistem keamanannya dibekali Central Locking dan Power Door Locks</p><br>
+
+                    <h5>Toyota Calya</h5>
+                    <p class="w3-text-grey">kapasitas tempat duduk: 7 kursi, sudah dilengkapi dengan fitur Head Unit dengan teknologi layar sentuh, DVD Player, USB, Bluetooth, iPod/iPhone Connectivity, serta AUX. Dari segi keamanan  terdapat fitur Supplemental Restraint System (SRS) Airbags guna melindungi baris depan dari risiko cedera parah saat terjadi kecelakaan. Selain itu, mobil juga memiliki fitur Anti-lock Braking System (ABS) dan Electronic Brakeforce Distribution (EBD) untuk mengatur pengereman. Di setiap kursi mobil juga dilengkapi tujuh buah 3 Points Seatbelt with Pretensioner and Force Limiter guna menjaga keselamatan seluruh penumpang.</p><br>
+
+                </div>
+
+                <div id="PahlawanDaerah" class="w3-container menu w3-padding-48 w3-card" style="display: none;">
+                    <h5>Mitsubishi Pajero Sport</h5>
+                    <p class="w3-text-grey">Kapasitas Tempat Duduk: 7 Kursi, untuk sistem keamanan dibekali Central Locking &amp; Power Door Locks, dilengkapi fitur AC, Power Steering, Ventilasi AC Belakang, Power Outlet, Automatic Climate Control, Power Window Depan, Power Window- Belakang, Adjustable Seats, Headrest Kursi Belakang, Arm Rest Belakang Tengah, On Board Computer, Cup Holder - depan, Bottle Holder, Steering Wheel Gearshift Paddle, Pemanas, Meja Lipat Belakang, Kursi Lipat Belakang, Lampu baca, Cruise control, Kursi dengan Heater   Belakang, Keyless Entry, Arm Rest Konsol Tengah.</p><br>
+
+                    <h5>Honda HR-V</h5>
+                    <p class="w3-text-grey">Kapasitas Tempat Duduk: 5 Kursi, untuk segi keamanannya dibekali Central Locking &amp; Power Door Locks. Dilengkapi fitur AC, Engine Start Stop Button, Power Outlet, Automatic Climate Control, Power Window Depan, Power Window  Belakang, Adjustable Seats, Headrest Kursi Belakang, On Board Computer, Cup Holder   depan, Bottle Holder, Automatic Head Lamps, Steering Wheel Gearshift Paddle, Pemanas, Meja Lipat Belakang,  Keyless Entry, Kursi Lipat Belakang, Cruise control, Kursi dengan Heater   Belakang, Arm Rest Konsol Tengah.</p><br>
+
+                    <h5>Toyota Rush</h5>
+                    <p class="w3-text-grey">Kapasitas Tempat Duduk: 7 Kursi, transmisi 4-Speed Automatic. Dilengkapi fitur AC, Power Steering, Ventilasi AC Belakang, Engine Start Stop Button, Power Outlet, Power Window Depan, Power Window- Belakang, Adjustable Seats, Headrest Kursi Belakang, On Board Computer, Cup Holder - depan, Bottle Holder, Meja Lipat Belakang, Keyless Entry, Kursi Lipat Belakang, Lampu baca, Kursi dengan Heater - Belakang, Sistem keamanan dibekali Central Locking &amp; Power Door Locks.. </p><br>
+
+                    <h5>Toyota Fortuner</h5>
+                    <p class="w3-text-grey">Kapasitas tempat duduk: 7 kursi bermaterial kulit, menggunakan suspensi Double Wishbone dengan Coil Spring and Stabilizer di bagian depan dan suspensi 4-Link with Lateral Rod di bagian belakang. Terdapat pula, Power Backdoor dengan fitur buka-tutup otomatis melalui tombol dan juga fitur Kick Sensor (tipe GR Sport, VRZ, & SRZ). Sebagai hiburan, disematkan Head Unit berukuran 9 inci dengan beragam fitur seperti Smartphone Connection, Voice Command, dan Near Field Communication (tipe GR Sport, VRZ, & SRZ).</p><br>
+
+                </div>
+                <!--Di bawah ini ada gambar pahlawan secara umum, silakan ganti bagian yang diapit quote pada atribut src-->
+                <img alt="Future car Rentals" src="https://i.ytimg.com/vi/JSwnquSynis/maxresdefault.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+            </div>
+        </div>
+
+        <!-- Kontainer Pesan -->
+        <div class="w3-container" id="pesan" style="padding-bottom:32px;">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Form Penyewaan</span></h5>
+                <p>Pilih kami sebagai teman perjalanan anda</p>
+                <!--Di bawah ini ada gambar pahlawan secara umum, silakan ganti bagian yang diapit quote pada atribut src-->
+                <img alt="car Rental" src="https://thebritishmotorshow.live/wp-content/uploads/2022/02/Supercars-at-the-Show.jpg" class="w3-image" style="width:100%">
+                <p><span class="w3-tag">isi form berikut</span> sebelum penyewaan kendaraan</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Tanggal sewa" required="" name="Tanggal" value="2020-11-16T20:00">Tanggal sewa</p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Tanggal kembali" required="" name="Tanggal" value="2020-11-16T20:00"></p>Tanggal kembali
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Jenis kendaraan" required="" name="Nama"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Tempat tujuan" required="" name="Nama"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Jumlah penumpang " required="" name="Pahlawan"></p>
+                                        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Keterangan" required="" name="Pesan"></p>
+                    <p><button class="w3-button w3-black" type="submit">Ren a car</button></p>
+                </form>
+            </div>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Tabbed Menu
+        function openMenu(evt, menuName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+            }
+            document.getElementById(menuName).style.display = "block";
+            evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+        }
+        document.getElementById("myLink").click();
+    </script>
+
+
+
+    </div></body></html>
